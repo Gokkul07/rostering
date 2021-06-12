@@ -40,7 +40,7 @@ for i in range(9):
             extra_hc_at_4 = shift_login_hc[1] + shift_login_hc[2] + shift_login_hc[3] + shift_login_hc[4] + \
                             shift_login_hc[6] + shift_login_hc[7]
             extra_hc_at_4 = extra_hc_at_4 - required_head_count[9]
-            print(f'Required head count at 4 is {required_head_count[9]}. Extra head count is {extra_hc_at_4}')
+            # print(f'Required head count at 4 is {required_head_count[9]}. Extra head count is {extra_hc_at_4}')
 
             # finding login count for 5pm shift
             print('17:00 : 02:00 = ' + str(int((balancing_peak_hours/100)*25)))
@@ -49,7 +49,7 @@ for i in range(9):
             extra_hc_at_5 = shift_login_hc[2] + shift_login_hc[3] + shift_login_hc[4] + shift_login_hc[6] + \
                             shift_login_hc[7]
             extra_hc_at_5 = extra_hc_at_5 - required_head_count[10]
-            print(f'Required head count at 5 is {required_head_count[10]}. Extra head count is {extra_hc_at_5}')
+            # print(f'Required head count at 5 is {required_head_count[10]}. Extra head count is {extra_hc_at_5}')
 
 
             # finding login count for 8pm shift
@@ -59,7 +59,7 @@ for i in range(9):
             extra_hc_at_8 = shift_login_hc[5] + shift_login_hc[6] + shift_login_hc[7] + shift_login_hc[8] + \
                             shift_login_hc[9]
             extra_hc_at_8 = (extra_hc_at_8 - required_head_count[13]) + 1
-            print(f'Required head count at 8 is {required_head_count[13]}. Extra head count is {extra_hc_at_8}')
+            # print(f'Required head count at 8 is {required_head_count[13]}. Extra head count is {extra_hc_at_8}')
 
 
 
@@ -70,7 +70,7 @@ for i in range(9):
             extra_hc_at_10 = shift_login_hc[5] + shift_login_hc[7] + shift_login_hc[8] + shift_login_hc[9] + \
                             shift_login_hc[10]
             extra_hc_at_10 = extra_hc_at_10 - required_head_count[15]
-            print(f'Required head count at 10 is {required_head_count[15]}. Extra head count is {extra_hc_at_10}')
+            # print(f'Required head count at 10 is {required_head_count[15]}. Extra head count is {extra_hc_at_10}')
 
     else:
         number = required_head_count[i + 1] - required_head_count[i]
