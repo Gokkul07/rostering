@@ -161,61 +161,62 @@ present_hc.append(shift_login_hc[5] + shift_login_hc[4] + shift_login_hc[3] + sh
 present_hc.append(shift_login_hc[6] + shift_login_hc[5] + shift_login_hc[4] + shift_login_hc[3] + shift_login_hc[2] +
                   shift_login_hc[1] + shift_login_hc[0])
 # 14
-present_hc.append( shift_login_hc[7] + shift_login_hc[6] + shift_login_hc[5] + shift_login_hc[4] + shift_login_hc[3] + shift_login_hc[2] +
+present_hc.append(shift_login_hc[6] + shift_login_hc[5] + shift_login_hc[4] + shift_login_hc[3] + shift_login_hc[2] +
                   shift_login_hc[1] + shift_login_hc[0])
 # 15
 present_hc.append(shift_login_hc[0] + shift_login_hc[1] + shift_login_hc[2] + shift_login_hc[3] + shift_login_hc[4] +
-                  shift_login_hc[5] + shift_login_hc[6] + shift_login_hc[7] + shift_login_hc[8])
+                  shift_login_hc[5] + shift_login_hc[6] + shift_login_hc[7])
 # 16
 present_hc.append(shift_login_hc[1] + shift_login_hc[2] + shift_login_hc[3] + shift_login_hc[4] + shift_login_hc[6] +
-                  shift_login_hc[7] + shift_login_hc[8] + shift_login_hc[9])
+                  shift_login_hc[7] + shift_login_hc[8])
 # 17
 present_hc.append(shift_login_hc[2] + shift_login_hc[3] + shift_login_hc[4] +
-                  shift_login_hc[6] + shift_login_hc[7] + shift_login_hc[8] + shift_login_hc[9] + shift_login_hc[10])
+                  shift_login_hc[6] + shift_login_hc[7] + shift_login_hc[8] + shift_login_hc[9])
 
 # 18
 present_hc.append(shift_login_hc[3] + shift_login_hc[4] + shift_login_hc[6] + shift_login_hc[7] + shift_login_hc[8] +
-                  shift_login_hc[9] + shift_login_hc[10])
+                  shift_login_hc[9])
 
 # 19
 present_hc.append(shift_login_hc[4] + shift_login_hc[5] + shift_login_hc[6] + shift_login_hc[7] + shift_login_hc[8] +
-                  shift_login_hc[9] + shift_login_hc[10])
+                  shift_login_hc[9])
 
 # 20
-present_hc.append(shift_login_hc[9] + shift_login_hc[8] + shift_login_hc[7] + shift_login_hc[6] + shift_login_hc[5])
+present_hc.append(shift_login_hc[5] + shift_login_hc[6] + shift_login_hc[7] + shift_login_hc[8] + shift_login_hc[9] +
+                  shift_login_hc[10])
 
 # 21
-present_hc.append(shift_login_hc[9] + shift_login_hc[8] + shift_login_hc[7] + shift_login_hc[6] + shift_login_hc[5])
+present_hc.append(shift_login_hc[5] + shift_login_hc[6] + shift_login_hc[7] + shift_login_hc[8] + shift_login_hc[9] +
+                  shift_login_hc[10])
 
 # 22
-present_hc.append(shift_login_hc[9] + shift_login_hc[8] + shift_login_hc[7] + shift_login_hc[5] +
-                  shift_login_hc[10])
+present_hc.append(shift_login_hc[5] + shift_login_hc[7] + shift_login_hc[8] + shift_login_hc[9] +
+                  shift_login_hc[10] + shift_login_hc[11])
 
 # 23
-present_hc.append(shift_login_hc[9] + shift_login_hc[8] + shift_login_hc[7] + shift_login_hc[5] +
-                  shift_login_hc[10])
+present_hc.append(shift_login_hc[5] + shift_login_hc[7] + shift_login_hc[8] + shift_login_hc[9] + shift_login_hc[10]
+                  + shift_login_hc[11])
 
 # 00
-present_hc.append(shift_login_hc[9] + shift_login_hc[8] + shift_login_hc[7] +
-                  shift_login_hc[10])
+present_hc.append(shift_login_hc[8] + shift_login_hc[9] + shift_login_hc[10] + shift_login_hc[11])
 
 # 01
-present_hc.append(shift_login_hc[9] + shift_login_hc[8] + shift_login_hc[10])
+present_hc.append(shift_login_hc[9] + shift_login_hc[10] + shift_login_hc[11])
 
 # 02
-present_hc.append(shift_login_hc[9] + shift_login_hc[10])
+present_hc.append(shift_login_hc[10] + shift_login_hc[11])
 
 # 03
-present_hc.append(shift_login_hc[9] + shift_login_hc[10])
+present_hc.append(shift_login_hc[10] + shift_login_hc[11])
 
 # 04
-present_hc.append(shift_login_hc[9] + shift_login_hc[10])
+present_hc.append(shift_login_hc[10] + shift_login_hc[11])
 
 # 05
-present_hc.append(shift_login_hc[10])
+present_hc.append(shift_login_hc[11])
 
 # 06
-present_hc.append(shift_login_hc[10])
+present_hc.append(shift_login_hc[11])
 
 print('Required head count')
 print(required_head_count)
